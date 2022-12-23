@@ -1,0 +1,41 @@
+.flower {
+  width: 400px;
+  padding-right: 12px;
+}
+.flower-image {
+  width: 400px;
+  height: 400px;
+  position: relative;
+}
+.flower-image img {
+  width: 200px;
+  height: 200px;
+}
+.flower-image a {
+  display: inline;
+  width: 152px;
+  height: 214px;
+  position: relative;
+  z-index: 2;
+}
+
+.flower span.name {
+  font-weight: bold;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 300px;
+  display: block;
+}
+// .play {
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   width: 152px;
+//   height: 214px;
+//   background: url("../../../assets/images/image-hover.png");
+//   display: block;
+//   z-index: 5;
+//   cursor: pointer;
+//   display: none;
+// }

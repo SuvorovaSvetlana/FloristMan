@@ -112,7 +112,7 @@ export class App extends core.Component {
             <private-route path="${appRoutes.admin}" component="shop-admin" title="Admin Page"></private-route>
             <it-route path="${appRoutes.signIn}" component="shop-sign-in" title="Sign In Page"></it-route>
             <it-route path="${appRoutes.signUp}" component="shop-sign-up" title="Sign Up Page"></it-route>
-            <it-route path="${appRoutes.bouquets}" component="shop-bouquets" title="Bouquets Page"></it-route>
+            <it-route path="${appRoutes.bouquets}/:id" component="shop-bouquets" title="Bouquets Page"></it-route>
             <it-route path="${appRoutes.bouquetsInBox}" component="shop-bouquets-in-box" title="Bouquets In Box Page"></it-route>
             <it-route path="${appRoutes.flowersAndSweets}" component="shop-flowers-and-sweets" title="Flowers And Sweets Page"></it-route>
             <it-route path="${appRoutes.newYearOffer}" component="shop-new-year-offer" title="New Year Offer Page"></it-route>
