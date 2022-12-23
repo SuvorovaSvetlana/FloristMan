@@ -9,7 +9,7 @@ export class ToggelMenu extends core.Component {
     this.state ={
       isOpen: false,
     }
-     this.toggleMenu = this.toggleMenu.bind(this);
+    this.toggleMenu = this.toggleMenu.bind(this);
   }
 
   static get observedAttributes(){

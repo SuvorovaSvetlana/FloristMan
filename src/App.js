@@ -87,6 +87,7 @@ export class App extends core.Component {
   };
 
   componentDidMount() {
+    console.log('app')
     this.getUser();
     eventBus.on(appEvents.userAuthorized, this.setIsAuthorized);
     eventBus.on(appEvents.userLoggedOut, this.onSignOut);
@@ -108,7 +109,7 @@ export class App extends core.Component {
             <it-route path="${appRoutes.katalog}" component="shop-katalog-page" title="Katalog Page"></it-route>
             <it-route path="${appRoutes.kontakty}" component="shop-kontakty" title="Kontakty Page"></it-route>
             <it-route path="${appRoutes.oNas}" component="shop-o-nas" title="O nas Page"></it-route>
-            <it-route path="${appRoutes.admin}" component="shop-admin" title="Admin Page"></it-route>
+            <private-route path="${appRoutes.admin}" component="shop-admin" title="Admin Page"></private-route>
             <it-route path="${appRoutes.signIn}" component="shop-sign-in" title="Sign In Page"></it-route>
             <it-route path="${appRoutes.signUp}" component="shop-sign-up" title="Sign Up Page"></it-route>
             <it-route path="${appRoutes.bouquets}" component="shop-bouquets" title="Bouquets Page"></it-route>
