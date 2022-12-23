@@ -1,0 +1,33 @@
+.main_header{
+  width: 100hv;
+  margin: 0;
+}
+
+.main_desctop {
+  min-height: 730px;
+  width: 100hv;
+  background-image: url(../../../assets/images/header.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color :#530a52;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.header_text{
+  margin: 0 auto;
+  font-size: 46px;
+  width: 700px;
+}
+.dostavka{
+  min-height: 530px;
+  width: 70hv;
+  background-color: rgba(213, 206, 206, 0.2);
+  color :#530a52;
+  text-align: center;
+  font-size:24px;
+  font-weight: 500;
+}
+

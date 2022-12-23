@@ -1,0 +1,18 @@
+export const ElementsName = {
+  App: "shop-app",
+  Navbar:'my-navbar',
+  Katalog: 'shop-katalog-page',
+  Links: 'shop-link',
+  Admin: 'shop-admin',
+  SignOut: 'shop-sign-out',
+  SignIn: 'shop-sign-in',
+  SingUp: 'shop-sign-up',
+  Navbar: 'my-navbar',
+  ToggelMenu: 'my-toggel-menu',
+  Bouquets: 'shop-bouquets',
+  BouquetsInBox: 'shop-bouquets-in-box',
+  FlowersAndSweets: 'shop-flowers-and-sweets',
+  NewYearOffer: 'shop-new-year-offer',
+  FlowersAndCosmetics: 'shop-flowers-and-cosmetics',
+  Flowers: 'shop-flowers',
+}

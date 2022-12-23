@@ -1,0 +1,32 @@
+.main_header{
+  width: 100hv;
+  margin: 0;
+}
+
+.main_desctop {
+  height: 730px;
+  width: 100hv;
+  background-image: url(../../../assets/images/header.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color :#530a52;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.header_text{
+  margin: 0 auto;
+  font-size: 56px;
+  padding:  350px 100px 0 0;
+  width: 700px;
+}
+
+.oNas_text{
+  padding: 30px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 30px;
+  max-width: 850px;
+}

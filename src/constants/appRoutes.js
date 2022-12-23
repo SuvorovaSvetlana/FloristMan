@@ -1,0 +1,17 @@
+export const appRoutes = {
+    home: '/',
+    dostavkaOplata: '/dostavkaOplata',
+    katalog: '/katalog',
+    kontakty: '/kontakty',
+    oNas: '/oNas',
+    signIn: '/signIn',
+    signOut: '/signOut',
+    signUp: '/signUp',
+    admin: '/admin',
+    bouquets:'/bouquets',
+    bouquetsInBox: '/bouquetsInBox',
+    flowersAndSweets: '/flowersAndSweets',
+    newYearOffer: '/newYearOffer',
+    flowersAndCosmetics: '/flowersAndCosmetics',
+    flowers: '/flowers',
+}
